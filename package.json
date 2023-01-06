@@ -1,0 +1,31 @@
+{
+  "name": "@lando/telemetry",
+  "version": "1.0.0-alpha1",
+  "description": "Server for receiving and routing Lando telemetry data.",
+  "main": "index.js",
+  "repository": "https://github.com/lando/telemetry",
+  "author": "reynoldsalec",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/lando/telemetry",
+  "keywords": [
+    "lando"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "release": "bump --prompt --tag --all --push"
+  },
+  "dependencies": {
+    "@amplitude/analytics-node": "^1.0.1",
+    "bluebird": "^3.7.2",
+    "debug": "^4.3.4",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-google": "^0.14.0",
+    "version-bump-prompt": "^6.1.0"
+  }
+}
