@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/lando/telemetry",
   "author": "reynoldsalec",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "homepage": "https://github.com/lando/telemetry",
   "keywords": [
     "lando"
