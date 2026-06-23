@@ -1,9 +1,7 @@
 'use strict';
 
 // Modules
-// import * as amplitude from '@amplitude/analytics-node';
-const Promise = require('bluebird');
-const amplitude = await import('@amplitude/analytics-node');
+const amplitude = require('@amplitude/analytics-node');
 
 /*
  * Creates a new ES instance.
@@ -12,7 +10,7 @@ class Amplitude {
   constructor(apiKey) {
     this.apiKey = apiKey;
     console.log(amplitude);
-    amplitude.init(this.apiKey); 
+    amplitude.init(this.apiKey);
   };
 
   /*
