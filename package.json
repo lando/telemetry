@@ -21,7 +21,7 @@
     "@amplitude/analytics-node": "^1.0.1",
     "bluebird": "^3.7.2",
     "debug": "^4.3.4",
-    "lodash": "^4.17.21"
+    "lodash": "^4.18.1"
   },
   "devDependencies": {
     "eslint": "^8.31.0",
